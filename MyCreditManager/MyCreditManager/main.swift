@@ -29,9 +29,8 @@ while true {
     case "4":
         manageScore.deleteScore()
         
-        
     case "5":
-        manageStudent.checkAverage()
+        manageScore.checkAverage()
         
     case "X":
         print("프로그램을 종료합니다 ...")

@@ -10,10 +10,12 @@ import Foundation
 struct Score {
     var subjectName: String
     var subjectScore: Double
-    
-    init(subjectName: String, subjectScore: Double) {
+    var scoreTitle: String
+
+    init(subjectName: String, subjectScore: Double, scoreTitle: String) {
         self.subjectName = subjectName
         self.subjectScore = subjectScore
+        self.scoreTitle = scoreTitle
     }
     
 }
