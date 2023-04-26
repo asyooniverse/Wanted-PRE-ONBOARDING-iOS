@@ -12,7 +12,6 @@
 		95420C9129F9214200EDED88 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95420C9029F9214200EDED88 /* Score.swift */; };
 		95420C9329F922E600EDED88 /* ManageStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95420C9229F922E600EDED88 /* ManageStudent.swift */; };
 		95420C9829F9262100EDED88 /* ManageScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95420C9729F9262100EDED88 /* ManageScore.swift */; };
-		95F5CCE929F9A5410093558A /* EnumScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F5CCE829F9A5410093558A /* EnumScore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,7 +33,6 @@
 		95420C9029F9214200EDED88 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
 		95420C9229F922E600EDED88 /* ManageStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageStudent.swift; sourceTree = "<group>"; };
 		95420C9729F9262100EDED88 /* ManageScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageScore.swift; sourceTree = "<group>"; };
-		95F5CCE829F9A5410093558A /* EnumScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumScore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +78,6 @@
 			children = (
 				95420C8E29F9209900EDED88 /* Student.swift */,
 				95420C9029F9214200EDED88 /* Score.swift */,
-				95F5CCE829F9A5410093558A /* EnumScore.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -148,7 +145,6 @@
 				95420C9329F922E600EDED88 /* ManageStudent.swift in Sources */,
 				95420C9829F9262100EDED88 /* ManageScore.swift in Sources */,
 				95420C9129F9214200EDED88 /* Score.swift in Sources */,
-				95F5CCE929F9A5410093558A /* EnumScore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
