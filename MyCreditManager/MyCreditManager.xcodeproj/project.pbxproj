@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		95420C8729F909E000EDED88 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95420C8629F909E000EDED88 /* main.swift */; };
-		95420C8F29F9209900EDED88 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95420C8E29F9209900EDED88 /* Student.swift */; };
-		95420C9129F9214200EDED88 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95420C9029F9214200EDED88 /* Score.swift */; };
-		95420C9329F922E600EDED88 /* ManageStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95420C9229F922E600EDED88 /* ManageStudent.swift */; };
-		95420C9829F9262100EDED88 /* ManageScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95420C9729F9262100EDED88 /* ManageScore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,10 +25,6 @@
 /* Begin PBXFileReference section */
 		95420C8329F909E000EDED88 /* MyCreditManager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyCreditManager; sourceTree = BUILT_PRODUCTS_DIR; };
 		95420C8629F909E000EDED88 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		95420C8E29F9209900EDED88 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
-		95420C9029F9214200EDED88 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
-		95420C9229F922E600EDED88 /* ManageStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageStudent.swift; sourceTree = "<group>"; };
-		95420C9729F9262100EDED88 /* ManageScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageScore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,21 +57,9 @@
 		95420C8529F909E000EDED88 /* MyCreditManager */ = {
 			isa = PBXGroup;
 			children = (
-				95420C8D29F9208400EDED88 /* Model */,
-				95420C9229F922E600EDED88 /* ManageStudent.swift */,
-				95420C9729F9262100EDED88 /* ManageScore.swift */,
 				95420C8629F909E000EDED88 /* main.swift */,
 			);
 			path = MyCreditManager;
-			sourceTree = "<group>";
-		};
-		95420C8D29F9208400EDED88 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				95420C8E29F9209900EDED88 /* Student.swift */,
-				95420C9029F9214200EDED88 /* Score.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +121,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				95420C8729F909E000EDED88 /* main.swift in Sources */,
-				95420C8F29F9209900EDED88 /* Student.swift in Sources */,
-				95420C9329F922E600EDED88 /* ManageStudent.swift in Sources */,
-				95420C9829F9262100EDED88 /* ManageScore.swift in Sources */,
-				95420C9129F9214200EDED88 /* Score.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
